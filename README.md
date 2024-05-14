@@ -21,3 +21,5 @@
 <p>The DHCP server was set up with a static configuration, defining an IP range from 172.16.0.100 to 200, a subnet mask of 255.255.255.0, a gateway address of 172.16.0.1, and DNS at 175.16.0.1. This configuration enables workstations to access the public internet through the domain controller, which acts as a gateway, by obtaining addressing from the statically configured DHCP server.</p>
 
 <p>To ensure smooth functionality, the internally facing NIC card was configured with the IP address 172.16.0.1 and a subnet mask of 255.255.255.0. However, the gateway field was left empty. Additionally, the loopback DNS was set to 127.0.0.1. This setup optimizes internal network communication while facilitating internet access for connected workstations.</p>
+
+<p>So configured, what remained was to test that each of the workstations could concurrently access the public internet by obtaining an IP address from the domain controller.</p>
