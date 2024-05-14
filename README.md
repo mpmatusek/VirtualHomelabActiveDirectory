@@ -6,8 +6,8 @@
 
 <h2>Hardware</h2>
 <ul>
-  <li>External facing NIC</li>
-  <li>Internal facing NIC</li>
+  <li>Externally facing NIC</li>
+  <li>Internally facing NIC</li>
 </ul>
 
 <h2>Active Directory and Domain Services</h2>
